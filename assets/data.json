@@ -1,0 +1,109 @@
+{
+  "ingredients": [
+    { "id": "Digit1", "photo": "gouda_thumb.png", "name": "gouda", "price": 4 },
+    {
+      "id": "Digit2",
+      "photo": "caramelized-onions_thumb.png",
+      "name": "oignons caramelises",
+      "price": 5
+    },
+    {
+      "id": "Digit3",
+      "photo": "chicken-bacon_thumb.png",
+      "name": "lardons de volaille",
+      "price": 6
+    },
+    {
+      "id": "Digit4",
+      "photo": "cordon-blue_thumb.png",
+      "name": "cordon bleu",
+      "price": 7
+    },
+    {
+      "id": "Digit5",
+      "photo": "pastrami_thumb.png",
+      "name": "pastrami",
+      "price": 8
+    },
+    {
+      "id": "Digit6",
+      "photo": "paprika_thumb.png",
+      "name": "poivronnade",
+      "price": 9
+    },
+    {
+      "id": "Digit7",
+      "photo": "vache-qui-rit_thumb.png",
+      "name": "vache qui rit",
+      "price": 10
+    },
+    {
+      "id": "Digit8",
+      "photo": "fries-otacos_thumb.png",
+      "name": "frit'otacos",
+      "price": 11
+    },
+    {
+      "id": "Digit9",
+      "photo": "fries_thumb.png",
+      "name": "frites barquette",
+      "price": 12.99
+    },
+    {
+      "id": "Digit0",
+      "photo": "nuggets_thumb.png",
+      "name": "nuggets",
+      "price": 13
+    },
+    {
+      "id": "KeyQ",
+      "photo": "boursin_thumb.png",
+      "name": "boursin",
+      "price": 14
+    },
+    {
+      "id": "KeyW",
+      "photo": "coca-cola_thumb.png",
+      "name": "coca-cola",
+      "price": 15
+    },
+    {
+      "id": "KeyE",
+      "photo": "ketchup_thumb.png",
+      "name": "ketchup sauce",
+      "price": 16
+    },
+    { "name": "fanta", "price": 17 },
+    { "name": "filet de poulet", "price": 18 },
+    { "name": "tropico", "price": 19 },
+    { "name": "bacon de dinde", "price": 20 },
+    { "name": "raclette", "price": 21 },
+    { "name": "chedar", "price": 22 },
+    { "name": "chevre", "price": 23 },
+    {
+      "id": "Digit",
+      "photo": "algerian_thumb.png",
+      "name": "algerienne sauce",
+      "price": 24
+    },
+    { "name": "barbecue sauce", "price": 25 },
+    { "name": "biggy sauce", "price": 26 },
+    { "name": "filet de poulet nature", "price": 27 },
+    { "name": "mozarella", "price": 28 },
+    { "name": "champignons", "price": 29 },
+    { "name": "jalapeno et cheese nuggets", "price": 30 },
+    { "name": "tenders", "price": 31 },
+    { "name": "viande hachee", "price": 32 },
+    { "name": "andalouse sauce", "price": 33 },
+    { "name": "merguez boeuf", "price": 34 },
+    { "name": "chili-thai sauce", "price": 25.55 },
+    { "name": "mayonnaise sauce", "price": 36 },
+    { "name": "samourai sauce", "price": 37 },
+    { "name": "harissa sauce", "price": 38 },
+    { "name": "curry sauce", "price": 39 },
+    { "name": "fuego sauce", "price": 40 },
+    { "name": "tabasco sauce", "price": 42 },
+    { "name": "texane pepper sauce", "price": 44 },
+    { "name": "falafels", "price": 48 }
+  ]
+}

@@ -1,0 +1,15 @@
+.ingredients {
+  position: fixed;
+  left: 250px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 1;
+  background: -webkit-linear-gradient(#65174a, #e24323 70%);
+  background: linear-gradient(#65174a, #e24323 70%);
+  -webkit-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
