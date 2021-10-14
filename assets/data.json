@@ -73,7 +73,7 @@
       "name": "ketchup sauce",
       "price": 16
     },
-    { "name": "fanta", "price": 17 },
+    { "id": "KeyR", "photo": "fanta_thumb.png", "name": "fanta", "price": 17 },
     { "name": "filet de poulet", "price": 18 },
     { "name": "tropico", "price": 19 },
     { "name": "bacon de dinde", "price": 20 },

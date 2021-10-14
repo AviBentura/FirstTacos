@@ -83,6 +83,9 @@ label > a:hover {
 .color-primary-dark {
   color: #d83f28 !important;
 }
+.color-primary {
+  color: #fff !important;
+}
 .app {
   -webkit-overflow-scrolling: auto;
   position: relative;
@@ -107,10 +110,8 @@ label > a:hover {
 }
 @media (max-width: 640px) and (min-height: 600px) {
   .app .img-logo {
-    width: 90px;
-    height: 90px;
-    min-width: 90px;
-    min-height: 90px;
+    width: 120px;
+    height: 115px;
   }
 }
 @media (min-width: 640px) {
@@ -135,8 +136,8 @@ label > a:hover {
 }
 @media (min-width: 641px) and (max-height: 700px) {
   .app .img-logo {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     min-width: 100px;
     min-height: 100px;
   }
@@ -293,6 +294,9 @@ label > a:hover {
   margin-top: 70px;
   margin-bottom: 10px;
   margin-bottom: 25px;
+}
+.sound-input-view.keyboard-input-view .first-child {
+  margin-top: 20px;
 }
 .sound-input-view.keyboard-input-view button {
   z-index: 1;

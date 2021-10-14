@@ -14,44 +14,36 @@ langSwitcher.addEventListener("click", function () {
   }
 });
 
-/*const digit2 = document.querySelectorAll(".Digit2");
-const digit3 = document.querySelectorAll(".Digit3");
-const digit4 = document.querySelectorAll(".Digit4");
-const digit5 = document.querySelectorAll(".Digit5");
-const digit6 = document.querySelectorAll(".Digit6");
-const digit7 = document.querySelectorAll(".Digit7");
-const digit8 = document.querySelectorAll(".Digit8");
-const digit9 = document.querySelectorAll(".Digit9");
-const digit0 = document.querySelectorAll(".Digit0");
-const keyQ = document.querySelectorAll(".KeyQ");
-const keyW = document.querySelectorAll(".KeyW");
-const keyE = document.querySelectorAll(".KeyE");
-const keyR = document.querySelectorAll(".KeyR");
-const keyT = document.querySelectorAll(".KeyT");
-const keyY = document.querySelectorAll(".KeyY");
-const keyU = document.querySelectorAll(".KeyU");
-const keyI = document.querySelectorAll(".KeyI");
-const keyO = document.querySelectorAll(".KeyO");
-const keyP = document.querySelectorAll(".KeyP");
-const keyA = document.querySelectorAll(".KeyA");
-const keyS = document.querySelectorAll(".KeyS");
-const keyD = document.querySelectorAll(".KeyD");
-const keyF = document.querySelectorAll(".KeyF");
-const keyG = document.querySelectorAll(".KeyG");
-const keyH = document.querySelectorAll(".KeyH");
-const keyJ = document.querySelectorAll(".KeyJ");
-const keyL = document.querySelectorAll(".KeyL");
-const semicolon = document.querySelectorAll(".Semicolon");
-const keyZ = document.querySelectorAll(".KeyZ");
-const keyX = document.querySelectorAll(".KeyX");
-const keyC = document.querySelectorAll(".KeyC");
-const keyV = document.querySelectorAll(".KeyV");
-const keyB = document.querySelectorAll(".KeyB");
-const keyN = document.querySelectorAll(".KeyN");
-const keyM = document.querySelectorAll(".KeyM");
-const comma = document.querySelectorAll(".Comma");
-const period = document.querySelectorAll(".Period");
-const space = document.querySelectorAll(".Space");*/
+const tailleM = document.querySelector(".M");
+tailleM.addEventListener("click", () => {
+  selection();
+  selectionM();
+});
+const tailleL = document.querySelector(".L");
+tailleL.addEventListener("click", () => {
+  selection();
+  selectionL();
+});
+const tailleG = document.querySelector(".G");
+tailleG.addEventListener("click", () => {
+  selection();
+  selectionG();
+});
+
+const btnRanking = document.querySelector(".btn-ranking");
+btnRanking.addEventListener("click", () => {
+  const votreTacosM = document.querySelector(".selectionM");
+  const votreTacosL = document.querySelector(".selectionL");
+  const votreTacosG = document.querySelector(".selectionG");
+  if (votreTacosM === null && votreTacosL === null && votreTacosG === null) {
+    alert("Veuillez séléctionner votre taille de Tacos !");
+  } else {
+    btnRanking.style.display = "none";
+    const tagline = document.querySelector(".tagline");
+    tagline.innerHTML = "";
+    panier();
+  }
+});
 
 //////////////////////////////////////////////////////
 //                       GOUDA                      //
@@ -299,6 +291,26 @@ function showItemKeyE() {
   showing.classList.add("ingredients");
   showIngKeyE();
 }
+
+//////////////////////////////////////////////////////
+//                       Fanta                      //
+//////////////////////////////////////////////////////
+const KeyR = document.querySelector("#KeyR");
+
+KeyR.addEventListener("mouseover", () => {
+  KeyR.innerHTML = `<div class="hover">Ajouter au panier</div>`;
+  setTimeout(function () {
+    KeyR.innerHTML = `<img alt="Cordon bleu" draggable="false" src="/soundboard/images/fanta_thumb.png"/>`;
+  }, 300);
+});
+
+KeyR.addEventListener("click", showItemKeyR);
+function showItemKeyR() {
+  const showing = document.querySelector(".placement-style");
+  showing.classList.add("ingredients");
+  showIngKeyR();
+}
+
 import {
   showIng1,
   showIng2,
@@ -313,4 +325,10 @@ import {
   showIngKeyQ,
   showIngKeyW,
   showIngKeyE,
+  showIngKeyR,
+  panier,
+  selection,
+  selectionM,
+  selectionL,
+  selectionG,
 } from "./fonction.js";
